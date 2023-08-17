@@ -1,0 +1,20 @@
+# An artificial neuron - perceptron
+
+## a perceptron takes several binary inputs and produces a single binary output
+
+    x1,x2,x3 -- w1,w2,w3 -- Pb --> output
+
+    - x represents an input
+    - w represents a weight associated with each input
+    - P is the perceptron
+    - b is a bias unique to the neuron
+
+## the output will be 1 if higher than a threshold and 0 if lower
+
+    output = x1 * w1 + bias
+    output = 0 if output < threshold or 1 if output => threshold
+
+    output = 0 if x1 * w1 + bias < threshold or
+             1 if x1 * w1 + bias => threshold
+
+ 
